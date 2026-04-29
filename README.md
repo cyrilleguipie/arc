@@ -10,10 +10,10 @@
 </p>
 
 <p align="center">
-  <a href="https://swiftpackageindex.com/yourorg/arc">
+  <a href="https://swiftpackageindex.com/cyrilleguipie/arc">
     <img src="https://img.shields.io/badge/Swift-6.0+-orange?logo=swift" alt="Swift 6+" />
   </a>
-  <a href="https://swiftpackageindex.com/yourorg/arc">
+  <a href="https://swiftpackageindex.com/cyrilleguipie/arc">
     <img src="https://img.shields.io/badge/platforms-iOS%20%7C%20macOS%20%7C%20tvOS%20%7C%20watchOS-blue" alt="Platforms" />
   </a>
   <a href="LICENSE">

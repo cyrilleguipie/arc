@@ -1,8 +1,8 @@
 site_name: Arc
 site_description: Pragmatic functional programming for Swift
-site_url: https://yourorg.github.io/arc
-repo_url: https://github.com/yourorg/arc
-repo_name: yourorg/arc
+site_url: https://cyrilleguipie.github.io/arc
+repo_url: https://github.com/cyrilleguipie/arc
+repo_name: cyrilleguipie/arc
 edit_uri: edit/main/docs/docs/
 
 theme:

@@ -6,7 +6,7 @@
 Async-first. Production-ready. Native.
 
 [Get Started](getting-started/installation.md){ .md-button .md-button--primary }
-[View on GitHub](https://github.com/yourorg/arc){ .md-button }
+[View on GitHub](https://github.com/cyrilleguipie/arc){ .md-button }
 
 </div>
 

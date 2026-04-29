@@ -21,7 +21,7 @@ import PackageDescription
 let package = Package(
     name: "MyApp",
     dependencies: [
-        .package(url: "https://github.com/yourorg/arc.git", from: "1.0.0")
+        .package(url: "https://github.com/cyrilleguipie/arc.git", from: "1.0.0")
     ],
     targets: [
         .target(
@@ -36,7 +36,7 @@ let package = Package(
 
 1. Open your project in Xcode
 2. **File → Add Package Dependencies...**
-3. Enter `https://github.com/yourorg/arc` in the search field
+3. Enter `https://github.com/cyrilleguipie/arc` in the search field
 4. Select **Up to Next Major Version** starting from `1.0.0`
 5. Click **Add Package**
 
