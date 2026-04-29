@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#7c3aed"/>
+
+  <!-- Arc symbol -->
+  <path d="M 160 380 Q 260 140 360 380" stroke="#a78bfa" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M 185 320 Q 260 200 335 320" stroke="#7c3aed" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <circle cx="260" cy="240" r="14" fill="#c4b5fd"/>
+
+  <!-- Title -->
+  <text x="420" y="290" font-family="Inter, system-ui, sans-serif" font-size="96" font-weight="800" fill="#f5f3ff" letter-spacing="-3">Arc</text>
+
+  <!-- Tagline -->
+  <text x="420" y="360" font-family="Inter, system-ui, sans-serif" font-size="32" font-weight="400" fill="#a78bfa">Pragmatic functional programming for Swift</text>
+
+  <!-- Pills -->
+  <rect x="420" y="400" width="170" height="46" rx="23" fill="#7c3aed22" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="505" y="429" font-family="Inter, system-ui, monospace" font-size="20" fill="#c4b5fd" text-anchor="middle">async-first</text>
+
+  <rect x="606" y="400" width="210" height="46" rx="23" fill="#7c3aed22" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="711" y="429" font-family="Inter, system-ui, monospace" font-size="20" fill="#c4b5fd" text-anchor="middle">type-safe</text>
+
+  <rect x="832" y="400" width="230" height="46" rx="23" fill="#7c3aed22" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="947" y="429" font-family="Inter, system-ui, monospace" font-size="20" fill="#c4b5fd" text-anchor="middle">production-ready</text>
+
+  <!-- URL -->
+  <text x="420" y="540" font-family="Inter, system-ui, monospace" font-size="24" fill="#6d28d9">cyrilleguipie.github.io/arc</text>
+</svg>

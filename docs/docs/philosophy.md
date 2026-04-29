@@ -1,3 +1,14 @@
+---
+title: Philosophy — Why Arc Exists
+description: Arc is built on three principles — pragmatism over purity, async as the default, and APIs that explain themselves. Learn why Arc takes a different approach from Bow and Arrow.
+tags:
+  - philosophy
+  - functional programming
+  - bow
+  - arrow
+  - swift
+---
+
 # Philosophy
 
 ## Why Arc exists

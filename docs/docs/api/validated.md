@@ -1,3 +1,14 @@
+---
+title: Validated — Accumulating Validation Errors in Swift
+description: Arc's Validated<Failure, Success> collects all validation errors at once instead of stopping at the first. Perfect for form validation in Swift and SwiftUI.
+tags:
+  - validated
+  - validation
+  - form validation
+  - error accumulation
+  - swiftui
+---
+
 # Validated
 
 ```swift

@@ -35,8 +35,23 @@ jobs:
           path: ~/.cache/pip
           restore-keys: mkdocs-material-
 
+      - name: Install system dependencies
+        run: sudo apt-get install -y libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
+
       - name: Install dependencies
         run: pip install -r docs/requirements.txt
+
+      - name: Convert social image to PNG
+        run: |
+          python3 -c "
+          import cairosvg
+          cairosvg.svg2png(
+            url='docs/docs/assets/arc-social.svg',
+            write_to='docs/docs/assets/arc-social.png',
+            output_width=1200,
+            output_height=630
+          )
+          "
 
       - name: Build docs
         run: cd docs && mkdocs build --site-dir ../site

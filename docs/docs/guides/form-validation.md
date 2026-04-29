@@ -1,3 +1,13 @@
+---
+title: Form Validation in Swift and SwiftUI with Validated
+description: Collect all form errors at once using Arc's Validated type in Swift and SwiftUI. No more showing one error at a time — accumulate every field failure.
+tags:
+  - form validation
+  - validated
+  - swiftui
+  - swift
+---
+
 # Form Validation
 
 `Validated` is built for this exact use case: collecting every field error at once, so users don't have to submit a form multiple times.

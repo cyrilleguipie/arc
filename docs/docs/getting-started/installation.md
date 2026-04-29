@@ -1,3 +1,12 @@
+---
+title: Install Arc — Swift Package Manager & Xcode
+description: Add Arc to your Swift project via Swift Package Manager or Xcode. Supports iOS 16+, macOS 13+, tvOS 16+, watchOS 9+, and Swift 5.9+.
+tags:
+  - installation
+  - swift package manager
+  - xcode
+---
+
 # Installation
 
 ## Requirements

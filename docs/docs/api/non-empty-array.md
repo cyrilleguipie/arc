@@ -1,3 +1,13 @@
+---
+title: NonEmptyArray — Guaranteed Non-Empty Collection in Swift
+description: Arc's NonEmptyArray<A> guarantees at least one element at compile time. Access first and last without optionals. Safe map, flatMap, sorted, and more.
+tags:
+  - non-empty array
+  - collections
+  - type safety
+  - swift
+---
+
 # NonEmptyArray
 
 ```swift

@@ -1,3 +1,14 @@
+---
+title: either { } DSL — Sequential Error Pipelines in Swift
+description: Arc's either { } block lets you write sequential Either pipelines with early exit — no nested flatMap, no try/catch. Inspired by Arrow's either { } for Kotlin.
+tags:
+  - dsl
+  - either
+  - pipeline
+  - arrow
+  - swift
+---
+
 # either { } DSL
 
 The `either { }` function provides a structured, readable way to write sequential `Either`-based pipelines without nested `flatMap` calls.

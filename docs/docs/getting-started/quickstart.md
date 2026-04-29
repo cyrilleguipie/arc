@@ -1,3 +1,14 @@
+---
+title: Quick Start — Arc Functional Swift Library
+description: Learn Arc in 5 minutes. Replace guard chains with Either, validate forms with Validated, build async pipelines with Effect, and use the either { } DSL.
+tags:
+  - quickstart
+  - tutorial
+  - either
+  - validated
+  - effect
+---
+
 # Quick Start
 
 This guide walks you through the most common Arc patterns in 5 minutes.

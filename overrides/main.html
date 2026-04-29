@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+
+  {% if page %}
+    {% set page_title = (page.meta.title if page.meta and page.meta.title else page.title) ~ ' — Arc' %}
+    {% set page_desc = page.meta.description if page.meta and page.meta.description else config.site_description %}
+
+    {% if page.canonical_url %}
+      <link rel="canonical" href="{{ page.canonical_url }}" />
+    {% endif %}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Arc" />
+    {% if page.canonical_url %}
+      <meta property="og:url" content="{{ page.canonical_url }}" />
+    {% endif %}
+    <meta property="og:title" content="{{ page_title }}" />
+    <meta property="og:description" content="{{ page_desc }}" />
+    <meta property="og:image" content="{{ config.site_url }}assets/arc-social.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@cyrilleguipie" />
+    <meta name="twitter:title" content="{{ page_title }}" />
+    <meta name="twitter:description" content="{{ page_desc }}" />
+    <meta name="twitter:image" content="{{ config.site_url }}assets/arc-social.png" />
+
+    <meta name="description" content="{{ page_desc }}" />
+
+    {% if page.meta and page.meta.tags %}
+      <meta name="keywords" content="{{ page.meta.tags | join(', ') }}" />
+    {% endif %}
+  {% endif %}
+{% endblock %}

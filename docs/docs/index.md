@@ -1,3 +1,8 @@
+---
+title: Arc — Functional Programming for Swift
+description: Arc is a pragmatic, async-first functional programming library for Swift. Either, Validated, Effect, and more — designed to feel native to Swift.
+---
+
 # Arc
 
 <div align="center" markdown>

@@ -1,3 +1,14 @@
+---
+title: Functional Error Handling in Swift — Beyond try/catch
+description: Replace Swift's try/catch with composable, typed error handling using Arc's Either and Effect. Convert Optional, Result, and throwing functions into pipelines.
+tags:
+  - error handling
+  - either
+  - effect
+  - swift
+  - vapor
+---
+
 # Error Handling
 
 Arc replaces scattered `try/catch` blocks with a composable, typed approach.

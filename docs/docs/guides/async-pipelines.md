@@ -1,3 +1,14 @@
+---
+title: Async Pipelines in Swift — Composable Concurrency with Effect
+description: Build sequential and parallel async pipelines in Swift with Arc's Effect type. zip, all, race, retry, backoff, timeout — composable async/await without callbacks.
+tags:
+  - async
+  - concurrency
+  - effect
+  - swift
+  - swift concurrency
+---
+
 # Async Pipelines
 
 Arc's `Effect` type makes async operations composable, lazy, and resilient.

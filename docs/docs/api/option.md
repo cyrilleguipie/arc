@@ -1,3 +1,13 @@
+---
+title: Option — Explicit Optional Type in Swift
+description: Arc's Option<A> type provides a consistent API alongside Either and Validated. Use map, flatMap, filter, and toEither for composable optional handling.
+tags:
+  - option
+  - optional
+  - functional programming
+  - swift
+---
+
 # Option
 
 ```swift

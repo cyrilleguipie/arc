@@ -1,3 +1,15 @@
+---
+title: Swift Extensions — Optional, Result, Array & Arc
+description: Arc extends Optional, Result, and Array with toEither, toEffect, toValidated, traverse, traverseValidated, traverseConcurrently, and groupBy.
+tags:
+  - extensions
+  - optional
+  - result
+  - array
+  - traverse
+  - swift
+---
+
 # Extensions
 
 Arc extends Swift's built-in types to integrate seamlessly into Arc pipelines.

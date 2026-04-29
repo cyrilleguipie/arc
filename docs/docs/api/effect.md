@@ -1,3 +1,15 @@
+---
+title: Effect — Lazy Async Operations in Swift
+description: Arc's Effect<A> type wraps async/await in a lazy, composable value. Supports map, flatMap, zip, retry with backoff, timeout, parallel execution, and more.
+tags:
+  - effect
+  - async await
+  - concurrency
+  - retry
+  - timeout
+  - swift
+---
+
 # Effect
 
 ```swift

@@ -1,12 +1,14 @@
 site_name: Arc
-site_description: Pragmatic functional programming for Swift
+site_description: Pragmatic functional programming for Swift — Either, Validated, Effect and more. Async-first, production-ready, no boilerplate.
 site_url: https://cyrilleguipie.github.io/arc
 repo_url: https://github.com/cyrilleguipie/arc
 repo_name: cyrilleguipie/arc
 edit_uri: edit/main/docs/docs/
+copyright: Copyright &copy; 2025 Cyrille Guipié — MIT License
 
 theme:
   name: material
+  custom_dir: ../overrides
   palette:
     - scheme: default
       primary: deep purple
@@ -25,11 +27,14 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.indexes
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
+    - announce.dismiss
   font:
     text: Inter
     code: JetBrains Mono
@@ -37,9 +42,21 @@ theme:
   favicon: assets/arc-logo.svg
 
 plugins:
-  - search
+  - search:
+      lang: en
+      separator: '[\s\-\.]+'
+  - social:
+      cards_layout_options:
+        background_color: "#1a1a2e"
+        color: "#c4b5fd"
+        font_family: Inter
+  - tags
   - minify:
       minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
 
 markdown_extensions:
   - admonition
@@ -62,6 +79,8 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+      title: On this page
+  - meta
 
 nav:
   - Home: index.md
@@ -86,8 +105,27 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourorg/arc
+      link: https://github.com/cyrilleguipie/arc
+      name: Arc on GitHub
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/cyrilleguipie
+      name: Follow on X
   generator: false
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: Thanks for letting us know.
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/seo.js

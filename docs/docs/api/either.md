@@ -1,3 +1,13 @@
+---
+title: Either — Typed Error Handling in Swift
+description: Arc's Either<Left, Right> type for typed, composable error handling in Swift. Replaces try/catch with map, flatMap, fold, and more.
+tags:
+  - either
+  - error handling
+  - functional programming
+  - swift
+---
+
 # Either
 
 ```swift
