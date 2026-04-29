@@ -1,0 +1,10 @@
+/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Either.swift
+/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/NonEmptyArray.swift
+/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Option.swift
+/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Validated.swift
+/Users/cyrilleguipie/Music/arc/Sources/Arc/Effect/Effect.swift
+/Users/cyrilleguipie/Music/arc/Sources/Arc/Effect/EitherDSL.swift
+/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Array+Arc.swift
+/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Optional+Arc.swift
+/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Result+Arc.swift
+/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Throwing+Arc.swift

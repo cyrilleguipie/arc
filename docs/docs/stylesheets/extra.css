@@ -1,0 +1,32 @@
+:root {
+  --md-primary-fg-color: #7c3aed;
+  --md-accent-fg-color: #a78bfa;
+}
+
+.md-typeset h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset code {
+  border-radius: 4px;
+}
+
+/* Callout-style type badges */
+.type-badge {
+  display: inline-block;
+  background: #7c3aed22;
+  color: #7c3aed;
+  border: 1px solid #7c3aed44;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.8em;
+  font-weight: 600;
+  font-family: var(--md-code-font);
+}
+
+[data-md-color-scheme="slate"] .type-badge {
+  background: #a78bfa22;
+  color: #c4b5fd;
+  border-color: #a78bfa44;
+}

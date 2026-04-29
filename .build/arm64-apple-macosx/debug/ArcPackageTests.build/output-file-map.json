@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/master.swiftdeps"
+  },
+  "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/runner.d",
+    "object": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/runner.dia"
+  }
+}

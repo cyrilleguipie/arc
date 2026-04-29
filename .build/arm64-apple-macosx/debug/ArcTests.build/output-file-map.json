@@ -1,0 +1,54 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/master.swiftdeps"
+  },
+  "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EffectTests.swift": {
+    "dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EffectTests.d",
+    "object": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EffectTests.swift.o",
+    "swiftmodule": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EffectTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EffectTests.swiftdeps",
+    "diagnostics": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EffectTests.dia"
+  },
+  "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EitherDSLTests.swift": {
+    "dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherDSLTests.d",
+    "object": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherDSLTests.swift.o",
+    "swiftmodule": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherDSLTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherDSLTests.swiftdeps",
+    "diagnostics": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherDSLTests.dia"
+  },
+  "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EitherTests.swift": {
+    "dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherTests.d",
+    "object": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherTests.swift.o",
+    "swiftmodule": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherTests.swiftdeps",
+    "diagnostics": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherTests.dia"
+  },
+  "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/ExtensionTests.swift": {
+    "dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ExtensionTests.d",
+    "object": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ExtensionTests.swift.o",
+    "swiftmodule": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ExtensionTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ExtensionTests.swiftdeps",
+    "diagnostics": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ExtensionTests.dia"
+  },
+  "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/NonEmptyArrayTests.swift": {
+    "dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/NonEmptyArrayTests.d",
+    "object": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/NonEmptyArrayTests.swift.o",
+    "swiftmodule": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/NonEmptyArrayTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/NonEmptyArrayTests.swiftdeps",
+    "diagnostics": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/NonEmptyArrayTests.dia"
+  },
+  "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/OptionTests.swift": {
+    "dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/OptionTests.d",
+    "object": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/OptionTests.swift.o",
+    "swiftmodule": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/OptionTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/OptionTests.swiftdeps",
+    "diagnostics": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/OptionTests.dia"
+  },
+  "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/ValidatedTests.swift": {
+    "dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ValidatedTests.d",
+    "object": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ValidatedTests.swift.o",
+    "swiftmodule": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ValidatedTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ValidatedTests.swiftdeps",
+    "diagnostics": "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ValidatedTests.dia"
+  }
+}

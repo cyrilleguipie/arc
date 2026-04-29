@@ -1,0 +1,923 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.xctest/Contents/MacOS/ArcPackageTests",
+      "packagePath" : "/Users/cyrilleguipie/Music/arc",
+      "productName" : "ArcPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Arc-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/sources",
+      "importPath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Either.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/NonEmptyArray.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Option.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Validated.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Effect/Effect.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Effect/EitherDSL.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Array+Arc.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Optional+Arc.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Result+Arc.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Throwing+Arc.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Arc",
+      "moduleOutputPath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules/Arc.swiftmodule",
+      "objects" : [
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Either.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/NonEmptyArray.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Option.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Validated.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Effect.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/EitherDSL.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Array+Arc.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Optional+Arc.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Result+Arc.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Throwing+Arc.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/include/Arc-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "arc"
+      ],
+      "outputFileMapPath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Either.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/NonEmptyArray.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Option.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Validated.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Effect.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/EitherDSL.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Array+Arc.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Optional+Arc.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Result+Arc.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Throwing+Arc.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules/Arc.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Either.swift",
+        "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/NonEmptyArray.swift",
+        "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Option.swift",
+        "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Validated.swift",
+        "/Users/cyrilleguipie/Music/arc/Sources/Arc/Effect/Effect.swift",
+        "/Users/cyrilleguipie/Music/arc/Sources/Arc/Effect/EitherDSL.swift",
+        "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Array+Arc.swift",
+        "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Optional+Arc.swift",
+        "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Result+Arc.swift",
+        "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Throwing+Arc.swift"
+      ],
+      "tempsPath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ArcPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/sources",
+      "importPath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules/ArcTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ArcPackageTests",
+      "moduleOutputPath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules/ArcPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/include/ArcPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "arc"
+      ],
+      "outputFileMapPath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules/ArcPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ArcTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/sources",
+      "importPath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EffectTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EitherDSLTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EitherTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/ExtensionTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/NonEmptyArrayTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/OptionTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/ValidatedTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules/Arc.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ArcTests",
+      "moduleOutputPath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules/ArcTests.swiftmodule",
+      "objects" : [
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EffectTests.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherDSLTests.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherTests.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ExtensionTests.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/NonEmptyArrayTests.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/OptionTests.swift.o",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ValidatedTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "arc"
+      ],
+      "outputFileMapPath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EffectTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherDSLTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ExtensionTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/NonEmptyArrayTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/OptionTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ValidatedTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules/ArcTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EffectTests.swift",
+        "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EitherDSLTests.swift",
+        "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EitherTests.swift",
+        "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/ExtensionTests.swift",
+        "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/NonEmptyArrayTests.swift",
+        "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/OptionTests.swift",
+        "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/ValidatedTests.swift"
+      ],
+      "tempsPath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Arc" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Arc",
+      "-package-name",
+      "arc",
+      "-c",
+      "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Either.swift",
+      "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/NonEmptyArray.swift",
+      "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Option.swift",
+      "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Validated.swift",
+      "/Users/cyrilleguipie/Music/arc/Sources/Arc/Effect/Effect.swift",
+      "/Users/cyrilleguipie/Music/arc/Sources/Arc/Effect/EitherDSL.swift",
+      "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Array+Arc.swift",
+      "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Optional+Arc.swift",
+      "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Result+Arc.swift",
+      "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Throwing+Arc.swift",
+      "-I",
+      "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/include/Arc-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "arc",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ArcPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ArcPackageTests",
+      "-package-name",
+      "arc",
+      "-c",
+      "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/include/ArcPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "arc",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ArcTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ArcTests",
+      "-package-name",
+      "arc",
+      "-c",
+      "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EffectTests.swift",
+      "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EitherDSLTests.swift",
+      "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EitherTests.swift",
+      "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/ExtensionTests.swift",
+      "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/NonEmptyArrayTests.swift",
+      "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/OptionTests.swift",
+      "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/ValidatedTests.swift",
+      "-I",
+      "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "arc",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Arc" : [
+
+    ],
+    "ArcPackageTests" : [
+      "ArcTests",
+      "Arc"
+    ],
+    "ArcTests" : [
+      "Arc"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Either.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/NonEmptyArray.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Option.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Core/Validated.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Effect/Effect.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Effect/EitherDSL.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Array+Arc.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Optional+Arc.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Result+Arc.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Sources/Arc/Extensions/Throwing+Arc.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/sources"
+    },
+    "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/sources"
+    },
+    "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Array+Arc.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Effect.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Either.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/EitherDSL.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/NonEmptyArray.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Option.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Optional+Arc.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Result+Arc.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Throwing+Arc.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/Arc.build/Validated.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EffectTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherDSLTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/EitherTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ExtensionTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/NonEmptyArrayTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/OptionTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/ValidatedTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EffectTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EitherDSLTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/EitherTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/ExtensionTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/NonEmptyArrayTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/OptionTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cyrilleguipie/Music/arc/Tests/ArcTests/ValidatedTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/ArcTests.build/sources"
+    },
+    "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/cyrilleguipie/Music/arc/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
